@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* share style start */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+.btn-primary{
+    padding: 1rem 2.5rem;
+    background: #FF5400;
+    border-radius: 0.5rem;
+    max-width: 11rem;
+    /* height: 3.25rem; */
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    font-size: 1rem;
+}
+.primary-p{
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 2rem;
+}
+/* share style end */
+
+/* banner section start */
+#banner{
+    background-image: url(../images/group13.png);
+    max-width: 73.125rem;
+    height: 31.25rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+.banner-text{
+    text-align: center;
+    padding: 6.625rem 11.6875rem;
+}
+.banner-text h1{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-text p {
+    color: #FFF;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    padding-top: 1.5rem;
+}
+.banner-input{
+    background: rgba(255, 255, 255, 0.30);
+    text-align: center;
+    max-width: 48rem;
+    margin: 0 auto;
+    padding: 1rem;
+    border-radius: 0.5rem;
+
+}
+.banner-input input, select{
+    width: 11rem;
+    height: 3.25rem;
+    border-radius: 0.5rem;
+    border: none;
+    padding-left: 1rem;
+}
+
+/* banner section end */
+
+.tour{
+    display: flex;
+    max-width: 73.125rem;
+    margin: 6.25rem auto;
+    justify-content: space-between;
+    text-align: justify;
+    gap: 3.3125rem;
+}
+.tour h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+}
+.tour li{
+    color: rgba(19, 19, 24, 0.70);
+    margin-bottom: 1.5rem;
+}
