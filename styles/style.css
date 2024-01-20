@@ -157,5 +157,42 @@
     font-size: 1.0rem;
     font-weight: 800;
 }
+.photo{
+    margin-bottom: 6.25rem;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+}
+.icon-text{
+    padding: 6.25rem;
+    text-align: center;
+    
+}
+.icon-text h3{
+    display: inline;
+    font-size: 2rem;
+    font-weight: 800;
+}
+span{
+    color: #FF5400;
+}
+footer img{
+    max-width: 1.5rem;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30rem;
+    margin-bottom: 3rem;
+}
+.last{
+    text-align: center;
+    margin: 2rem;
+}
+
+@media screen (max-width: 567px) {
+    
+}
+
 
 
