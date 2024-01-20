@@ -105,14 +105,14 @@
 }
 .choose-option-hotel{
     max-width: 35rem;
-    border-radius: 16px;
+    border-radius: 1rem;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
     padding: 2rem;
 }
 .choose-option-map{
     max-width: 35rem;
-    border-radius: 16px;
+    border-radius: 1rem;
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(41, 206, 246, 0.05);
     padding: 2rem;
@@ -120,10 +120,42 @@
 .choose-option-best{
     max-width: 35rem;
     margin-top: 1.5rem;
-    border-radius: 16px;
+    margin-bottom: 7.5rem;
+    border-radius: 1rem;
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
     padding: 2rem;
+}
+.news{
+    display: flex;
+    justify-content: space-between;
+}
+.newsletter{
+    padding: 2.5rem;
+}
+.newsletter h3{
+    margin-bottom: 1rem;
+}
+.newsletter hr{
+    margin-bottom: 1.5rem;
+}
+.newsletter input{
+    border: none;
+    border-radius: 0.5rem;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 1rem 15rem 1rem 1rem;
+    margin-bottom: 1rem;
+}
+.newsletter button{
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    background: #FF5400;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem 10.2rem;
+    color: #FFF;
+    font-size: 1.0rem;
+    font-weight: 800;
 }
 
 
